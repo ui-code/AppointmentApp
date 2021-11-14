@@ -1,0 +1,91 @@
+.container {
+    width: 1400px;
+    height: 650px;
+}
+
+.app-color-blue-1 {
+    color: #346EE1;
+}
+
+.app-color-blue-3 {
+    color: #A0B4D6;
+}
+
+.app-color-black {
+    color: #3E4350;
+}
+
+.app-color-gray-1 {
+    color: #949AA7;
+}
+
+.app-color-red {
+    color: #949AA7;
+}
+
+.app-bg-blue-1 {
+    background: #346EE1;
+}
+
+.app-bg-blue-2{
+    background: #F5F9FC;
+}
+
+.app-button-shadow {
+    box-shadow: 0px 5px 10px 0px rgb(145 167 210 / 25%);
+}
+
+.app-bg-blue-3 {
+    background: #4A7AE5;
+}
+
+.app-bg-blue-4 {
+    background: #518AEA;
+}
+
+.app-bg-white-1 {
+    background: #F4F8F9;
+}
+
+.app-color-yellow-1 {
+    color: #D7AC67;
+}
+
+.app-bg-yellow-2 {
+    background: #FFF9EB;
+}
+
+.app-bg-yellow-3 {
+    background: #FFBE4E;
+}
+
+.app-border-1 {
+    border: 1px solid #F4F6F9;
+}
+
+.app-color-red-1 {
+    color: #E0899C;
+}
+
+.app-bg-red-2 {
+    background: #FEF5F6;
+}
+
+.app-color-green {
+    color: #0CBDA8;
+}
+
+.active {
+    position: relative;
+    box-shadow: 6px -6px 11px 0 rgb(0 0 0 / 8%);
+}
+
+.active::before {
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 55%;
+    background-color: #346EE1;
+    top: 20px;
+    left: 0;
+}
